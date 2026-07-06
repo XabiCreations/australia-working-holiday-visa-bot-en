@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Variables de entorno
+.env
+
+# Logs generados en ejecución
+*.log
+formulario.log
+mantenimiento.log
+
+# Archivos generados en ejecución
+ultima_pagina.html
+
+# ChromeDriver (cada usuario debe usar el suyo)
+chromedriver
+chromedriver.exe
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Credenciales locales (no subir nunca)
+datos.txt
