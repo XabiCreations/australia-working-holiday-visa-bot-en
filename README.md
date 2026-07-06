@@ -113,22 +113,9 @@ python main.py
 
 ## Notificaciones
 
-Ambos bots admiten cuatro modos de funcionamiento. El programa detecta automáticamente qué servicios están configurados y usa solo los disponibles.
+Ambos bots admiten tres modos de notificación. El programa detecta automáticamente qué servicios están configurados y usa solo los disponibles.
 
-### Modo 1 — Sin notificaciones
-
-Deja los valores de Telegram y Twilio como están por defecto en `config.py`. El bot funcionará normalmente; los eventos solo se registrarán en el log.
-
-```python
-TELEGRAM_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
-CHAT_ID        = "YOUR_TELEGRAM_CHAT_ID"
-TWILIO_SID     = "YOUR_TWILIO_ACCOUNT_SID"
-TWILIO_TOKEN   = "YOUR_TWILIO_AUTH_TOKEN"
-TWILIO_FROM    = "+XXXXXXXXXXX"
-TWILIO_TO      = "+XXXXXXXXXXX"
-```
-
-### Modo 2 — Solo Telegram
+### Modo 1 — Solo Telegram
 
 Rellena únicamente los campos de Telegram. Los de Twilio pueden dejarse con sus valores por defecto.
 
@@ -141,7 +128,7 @@ TWILIO_FROM    = "+XXXXXXXXXXX"              # sin rellenar
 TWILIO_TO      = "+XXXXXXXXXXX"              # sin rellenar
 ```
 
-### Modo 3 — Solo Twilio
+### Modo 2 — Solo Twilio
 
 Rellena únicamente los campos de Twilio. Los de Telegram pueden dejarse con sus valores por defecto.
 
@@ -154,7 +141,7 @@ TWILIO_FROM    = "+15551234567"
 TWILIO_TO      = "+34600123456"
 ```
 
-### Modo 4 — Telegram y Twilio simultáneamente
+### Modo 3 — Telegram y Twilio simultáneamente
 
 Rellena todos los campos. Ambos servicios funcionarán en paralelo.
 
