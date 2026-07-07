@@ -5,8 +5,8 @@ import sys
 LOG_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
-def configurar_logs():
-    log_path = os.path.join(LOG_DIR, "formulario.log")
+def configure_logging():
+    log_path = os.path.join(LOG_DIR, "form.log")
     formatter = logging.Formatter(
         "%(asctime)s [%(levelname)s] %(message)s",
         datefmt="%Y-%m-%d %H:%M:%S",

@@ -13,16 +13,16 @@ IMMI_EMAIL    = "YOUR_EMAIL"
 IMMI_PASSWORD = "YOUR_PASSWORD"
 
 # ── Selenium ──────────────────────────────────────────────────────────────────
-URL_VISADO     = "https://online.immi.gov.au/elp/app"
+FORM_URL       = "https://online.immi.gov.au/elp/app"
 URL_POST_LOGIN = "https://online.immi.gov.au"
-XPATH_PASO     = "//span[@class='wc-label' and contains(text(), '/17')]"
-XPATH_BOTON    = "//button[.//span[text()='Next']]"
+XPATH_STEP     = "//span[@class='wc-label' and contains(text(), '/17')]"
+XPATH_BUTTON   = "//button[.//span[text()='Next']]"
 
-# ── Lógica ────────────────────────────────────────────────────────────────────
-PASO_FINAL = "6/17"
+# ── Logic ─────────────────────────────────────────────────────────────────────
+FINAL_STEP = "6/17"
 
-# ── Intervalos y timeouts ─────────────────────────────────────────────────────
-INTERVALO_MIN = 30    # segundos entre ciclos (mínimo)
-INTERVALO_MAX = 105   # segundos entre ciclos (máximo)
-TIMEOUT_BOTON = 10    # segundos esperando que aparezca el botón o el paso
-TIMEOUT_PASO  = 30    # segundos esperando que el formulario cambie de paso
+# ── Intervals and timeouts ────────────────────────────────────────────────────
+INTERVAL_MIN     = 30    # minimum seconds between cycles
+INTERVAL_MAX     = 105   # maximum seconds between cycles
+TIMEOUT_ELEMENT  = 10    # seconds waiting for button or step to appear
+TIMEOUT_STEP     = 30    # seconds waiting for form to change step
