@@ -197,6 +197,8 @@ CHAT_ID        = "YOUR_TELEGRAM_CHAT_ID"
 
 ### Twilio
 
+> 📺 **Video tutorial:** [Cómo configurar Twilio paso a paso](https://www.youtube.com/watch?v=XxKciuSKLf0)
+
 #### 1. Crear una cuenta
 
 Regístrate en [twilio.com](https://www.twilio.com). Puedes empezar con la cuenta gratuita (trial).
