@@ -29,7 +29,7 @@ def fetch_page():
         except req.RequestException as e:
             logger.warning(f"⚠️ Attempt {attempt}/{MAX_RETRIES} failed: {e}")
             if attempt < MAX_RETRIES:
-                time.sleep(10)
+                time.sleep(5)
     return None
 
 
