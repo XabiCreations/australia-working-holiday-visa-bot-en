@@ -87,8 +87,8 @@ def start_automation(driver):
 
             if FINAL_STEP in step:
                 logger.info(f"🎯 Form reached step {FINAL_STEP}. Stopping.")
-                send_telegram(f"🎯 Form reached step *{FINAL_STEP}*. Closing in 5 seconds.")
-                time.sleep(5)
+                send_telegram(f"🎯 Form reached step *{FINAL_STEP}*. Closing in 3 seconds.")
+                time.sleep(3)
                 return
 
         except TimeoutException:
