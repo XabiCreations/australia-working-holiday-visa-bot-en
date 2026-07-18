@@ -21,6 +21,12 @@ last_page.html
 chromedriver
 chromedriver.exe
 
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
 # Operating system
 .DS_Store
 Thumbs.db
