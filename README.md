@@ -1,4 +1,4 @@
-# Australia Visa (immi.gov.au) — Automation Bots
+# Australia Visa (ImmiAccount) — Automation Bots
 
 Tired of refreshing the Australian government website just to find out if you can move on to the next step of the visa form? This program lets you work towards your visa without wasting time staring at a screen. The bot automatically clicks "Next" for you at regular intervals and, as soon as the next step becomes available, sends you a notification or calls your phone.
 
