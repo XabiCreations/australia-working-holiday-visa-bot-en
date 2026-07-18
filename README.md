@@ -1,6 +1,10 @@
 # Australia Visa — Automation Bots
 
-Two independent bots for managing the visa application process on the Australian immigration portal (ImmiAccount).
+Tired of refreshing the Australian government website just to find out if you can move on to the next step of the visa form? This program lets you work towards your visa without wasting time staring at a screen. The bot automatically clicks "Next" for you at regular intervals and, as soon as the next step becomes available, sends you a notification or calls your phone.
+
+It also monitors whether the portal is under maintenance and alerts you the moment it comes back online, so you never miss an opportunity.
+
+The project is built with Python and uses Google Chrome to navigate the portal automatically. It integrates with Telegram for messages and Twilio for phone calls.
 
 ## Included bots
 
